@@ -1,7 +1,13 @@
 
 <div class="main-contaner">
   <div class="new-article">
-    新規記事
+    新規記事<br>
+    <% @posts.each do |post| %>
+      タイトル:<%= post["title"]["rendered"] %>
+    <div class="">
+      <%= (post["excerpt"]["rendered"]).html_safe %>
+    </div>
+    <% end %>
   </div>
   <div class="new-article-small">
     新規記事小
