@@ -1,0 +1,15 @@
+.box {
+ display: table-cell;
+}
+
+.category {
+  width: 90%;
+  border: 1px solid #000000;
+}
+.recomend {
+  width: 20%;
+  border: 1px solid #000000;
+}
+.main-contaner {
+  text-align: center;
+}
