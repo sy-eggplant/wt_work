@@ -14,12 +14,13 @@
  *= require_self
  */
  .main-header {
- color: #000000;
- background-color: #ebd8c0;
  text-align: center;
- height: 40px;
  }
-
+.navi {
+  color: #000000;
+  background-color: #ebd8c0;
+  height: 40px;
+}
  .footer {
  color: #FFFFFF;
  background-color: #5b310f;
