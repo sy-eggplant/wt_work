@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+ .main-header {
+ text-align: center;
+ }
+.navi {
+  color: #000000;
+  background-color: #ebd8c0;
+  height: 40px;
+}
+ .footer {
+ color: #FFFFFF;
+ background-color: #5b310f;
+ text-align: center;
+ }
