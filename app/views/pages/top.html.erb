@@ -5,7 +5,13 @@
     <% @posts.each do |post| %>
       タイトル:<%= post["title"]["rendered"] %>
     <div class="">
-      <%= (post["excerpt"]["rendered"]).html_safe %>
+      <span>
+        <%= (post["content"]["rendered"].truncate(30, separator: '...')).html_safe %>
+      </span>
+      <br>
+      <span>
+        <%= link_to "続きを読む", post["guid"]["rendered"] %>
+      </span>
     </div>
     <% end %>
   </div>
